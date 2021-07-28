@@ -1,0 +1,64 @@
+input {
+  border: none;
+
+  color: rgb(91, 91, 91);
+  background-color: rgb(218, 218, 218);
+
+  width: 30%;
+}
+
+button {
+  background-color: rgb(218, 218, 218);
+  padding: 2%;
+  border: none;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.header-sec {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0% 0% 2% 2%;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  background-color: rgb(243, 242, 242);
+}
+
+.sec1 {
+  padding: 2%;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  color: #fff;
+  background-color: rgb(91, 91, 91);
+  border-radius: 25px;
+}
+
+.row1 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.row2 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.row3 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+
+  padding: 3.5%;
+}
