@@ -1,3 +1,4 @@
+<link rel='stylesheet' href='CSS/basic.css'>
 <body>
     <h1>CSS Templates</h1>
     <section class="sec1" id="home">
