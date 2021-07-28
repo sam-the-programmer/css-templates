@@ -1,19 +1,76 @@
-* {
-  font-family: sans-serif;
-  color: #fff;
-  background-color: rgb(110, 110, 110);
+:root {
+  --darkbg1: rgb(90, 90, 90);
+  --medbg1: rgb(110, 110, 110);
+  --lightblue: #3fbfee;
+  --medblue: #00b0f0;
+  --darkblue: #0081b0;
+}
 
-  text-align: center;
+* {
+  font-family: "Century Gothic";
+  font-weight: lighter;
+
+  color: #fff;
+  background-color: var(--medbg1);
+
+  text-align: left;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+p,
+ul,
+legend,
+fieldset {
+  line-height: 1.5rem;
 }
 
 p {
   padding: 1rem;
-  line-height: 1.5rem;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 hr {
   color: rgb(231, 231, 231);
   background-color: #fff;
+}
+
+button,
+iframe {
+  border: solid;
+  border-radius: 0.5rem;
+  border-width: 0.01rem;
+}
+
+button {
+  background-color: var(--medblue);
+  min-width: 20%;
+  max-width: 50%;
+  min-height: 2rem;
+  height: fit-content;
+  text-align: center;
+  border: none;
+
+  transition: background-color 230;
+}
+
+button:hover {
+  background-color: var(--lightblue);
+}
+button:active {
+  background-color: var(--darkblue);
+}
+
+strong {
+  font-weight: bold;
 }
 
 .html {
@@ -34,17 +91,38 @@ hr {
   flex-direction: row;
   flex-wrap: wrap;
 
+  position: fixed;
+
   justify-content: space-around;
   align-items: center;
   text-align: center;
 
+  border-radius: 2rem;
   padding: 1.5rem;
+  width: 100%;
 
   color: #fff;
-  background-color: rgb(110, 109, 109);
+  background-color: rgb(90, 90, 90);
 }
 
 .navbar-link {
-  text-decoration: none;
+  background-color: var(--darkbg1);
   color: inherit;
+  text-decoration: none;
+}
+
+.panel {
+  width: 100%;
+}
+
+.text-glow {
+  text-shadow: 0 0 0.5rem var(--lightblue);
+}
+
+.box-glow {
+  box-shadow: 0 5px 20px #00b0f0;
+}
+
+.text-drop {
+  text-shadow: 2px 2px 0px var(--medblue);
 }
