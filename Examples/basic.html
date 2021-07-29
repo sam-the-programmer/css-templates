@@ -6,41 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../basic.css">
+    <link rel="icon" type="image/png" href="../Images/basic.png" />
     <title>BASIC.CSS</title>
 </head>
 
 <body>
-    <div class="navbar">
-        <nav>
-            <a><strong class="navbar-link">BASIC.CSS &nbsp&nbsp
-                </strong></a><a class="navbar-link" href="#">HOME &nbsp |
-            </a><a class="navbar-link" href="#user">&nbsp USER GUIDE &nbsp |
-            </a><a class="navbar-link" href="#source">&nbsp SOURCE CODE &nbsp</a>
-        </nav>
-    </div>
-    <br />
-    <br />
-    <br />
-    <section class="sec0">
+    <section id="navigation">
+        <div class="navbar">
+            <nav>
+                <a><strong>BASIC.CSS &nbsp&nbsp
+                    </strong></a><a class="navbar-link" href="#">HOME &nbsp
+                </a> | <a class="navbar-link" href="#user">&nbsp USER GUIDE &nbsp
+                </a> | <a class="navbar-link" href="#source">&nbsp SOURCE CODE &nbsp</a>
+            </nav>
+        </div>
+
+        <br />
+        <br />
+        <br />
+    </section>
+    <section>
         <br />
         <img src="../Images/basic.png" class="logo">
-        <p>BASIC.CSS is your pathway to easy, fast visualizations
+        <p class="sec1">BASIC.CSS is your pathway to easy, fast visualizations
             of your website design dreams. Equipped with stylizations
             and design choices to create beautiful websites, BASIC.CSS
             is your way to easier design choices, faster development
             and prototyping and visualizing websites better, smarter
-            and quicker. In fact, this website was
+            and quicker. In fact, this html was styled with BASIC.CSS.
+            <br />
+            I am relatively new to CSS, HTML and web development, but
+            I hope that this can be of help to someone.
         </p>
     </section>
-    <section class="sec1" id="home">
-        <hr />
-    </section>
-    <section class="sec2" id="user">
+
+    <hr id="user" />
+    <section class="sec2">
         <div>
             <p>There are many styles that BASIC.CSS supports and designs for you.
                 Here are some below.
             </p>
-            <h3>Try the <span class="text-glow">glow</span> or the <span class="text-drop">text-drop</span> style!</h3>
+            <h3>&nbsp Try the
+                <span class="text-glow">glow</span>
+                or the <span class="text-drop">text-drop</span> style!
+            </h3>
 
             <ul>
                 <li>Style your lists nicely</li>
@@ -49,15 +58,69 @@
             </ul>
         </div>
         <br />
+
         <fieldset>
-            <legend>How about fieldsets and legends?</legend>
+            <legend>How about <span class="hover-glow">fieldsets</span> and <span class="hover-glow">legends</span>?
+            </legend>
+            <div class="col-pick">
+                <label>What is your favourite color?</label>
+                <input type="color" value="#00b0f0">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <label>&nbsp Is BASIC.CSS working?</label>
+            </div>
             <button>Do I look nice?</button>
         </fieldset>
+        <br />
+        <br />
     </section>
+    <section class="sec2">
+        <br />
+        <br />
+        <h2>Here is the full list of BASIC.CSS classes.</h2>
+        <table>
+            <tbody>
+                <td>navbar</td>
+                <td>A sticky navigation bar like on here</td>
+            </tbody>
+            <tbody>
+                <td>navbar-link</td>
+                <td>A link within the navbar that glows on hover</td>
+            </tbody>
+            <tdbody>
+                <td>logo</td>
+                <td>A logo area with rounded corners that is darker than the main body. Use a <span class="hover-glow">div</span> containing an image.</td>
+            </tdbody>
+            <tbody>
+                <td>sec1</td>
+                <td>A simple, basic section with centered text and no borders</td>
+            </tbody>
+            <tbody>
+                <td>sec2</td>
+                <td></td>
+            </tbody>
+            <tbody>
+                <td>sec3</td>
+                <td>A darkened area around the text for emphasis or as a header/footer.</td>
+            </tbody>
+            <tbody>
+                <td>checkbox</td>
+                <td>For a <span class="hover-glow">div</span> with a label and an input of type="checkbox" that gives it a larger checkbox that glows on hover.</td>
+            </tbody>
+            <tdbody>
+                <td></td>
+                <td></td>
+            </tdbody>
+        </table>
+
+    </section>
+
     <section class="sec3" id="source">
         <br />
+        <hr />
         <p>
-            View the source code <a>here</a> at the Github repository.
+            View the source code <a class="subtle-link" href="https://www.github.com/Password-Classified/CSS-Templates">here</a> at the Github repository.
         </p>
     </section>
 
