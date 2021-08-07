@@ -12,7 +12,8 @@ There is a wide range of CSS templates. Here is a short catalogue of those that 
 
  + basic.css - BASIC.CSS is the simplest to use, with a dark-mode like design.
 <br/>
-![alt text](Images/Basic%20Image.png)
+
+![Basic.css Image Preview](https://raw.githubusercontent.com/Password-Classified/CSS-Templates/master/Images/Basic%20Image.png)
   
 <br/>
 
