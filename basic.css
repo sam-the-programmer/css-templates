@@ -151,7 +151,7 @@ table {
 
 .checkbox input[type="checkbox"] {
   height: 1rem;
-  width: 1rem;
+  width: 5rem;
 }
 
 .checkbox input[type="checkbox"]:hover {
@@ -159,6 +159,25 @@ table {
 }
 
 .checkbox label {
+  background-color: transparent;
+}
+
+.text-input {
+  display: flex;
+}
+
+.text-input input[type="text"] {
+  height: 1rem;
+  width: 1rem;
+
+  color: var(--darkbg1);
+}
+
+.text-input input[type="text"]:hover {
+  box-shadow: 0 0 20px #00b0f0;
+}
+
+.text-input label {
   background-color: transparent;
 }
 
