@@ -10,6 +10,10 @@
   --red-gradient-light: linear-gradient(95deg, #f34028, #ff8a5c);
   --red-gradient-dark: linear-gradient(95deg, #d61711, #e98838);
 
+  --yellow-gradient: linear-gradient(95deg, #f0bb0d, #ffe449);
+  --yellow-gradient-light: linear-gradient(95deg, #f34028, #ff8a5c);
+  --yellow-gradient-dark: linear-gradient(95deg, #d61711, #e98838);
+
   --green-gradient: linear-gradient(95deg, #19bb21, #8cff49);
   --green-gradient-light: linear-gradient(95deg, #1cd325, #8ffd50);
   --green-gradient-dark: linear-gradient(95deg, #18a920, #83eb47);
@@ -146,6 +150,25 @@ button:active {
   padding: 1rem;
 }
 
+.yellow-navbar {
+  position: sticky;
+  margin-bottom: 1.5rem;
+  top: 10px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  box-shadow: 1rem 0.4rem 1rem #d1d1d1;
+
+  border-radius: 6rem;
+  background: var(--yellow-gradient);
+
+  padding: 1rem;
+}
+
 .green-navbar {
   position: sticky;
   margin-bottom: 1.5rem;
@@ -247,6 +270,30 @@ button:active {
 }
 
 .purple-large-header * {
+  padding: 0;
+  color: inherit;
+  background: unset;
+}
+
+.yellow-large-header {
+  padding-top: 12rem;
+  padding-bottom: 7rem;
+  padding-left: 2rem;
+
+  height: 100%;
+
+  margin-bottom: 1rem;
+
+  border: none;
+  border-radius: 1.5rem;
+
+  box-shadow: 1rem 0.6rem 1rem #d1d1d1;
+
+  color: white;
+  background: var(--yellow-gradient-dark);
+}
+
+.yellow-large-header * {
   padding: 0;
   color: inherit;
   background: unset;
